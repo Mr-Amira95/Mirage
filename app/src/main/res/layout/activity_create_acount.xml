@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:openDrawer="end"
+    android:id="@+id/drawer"
+    android:layout_height="match_parent"
+    tools:context=".CreateAcount"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/createAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:text="@string/create_account"
+            android:textSize="30sp" />
+
+            <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/createAccount"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/firstName"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/edit_round"
+                        android:layout_marginTop="0dp"
+                        android:hint="@string/first_name"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:textColorHint="@color/darkBlue"/>
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/lastName"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/edit_round"
+                        android:inputType="text"
+                        android:hint="@string/last_name"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:layout_marginStart="20dp"
+                        android:textColorHint="@color/darkBlue"/>
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/userEmail"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="60dp"
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/edit_round"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="@string/email"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColorHint="@color/darkBlue"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/userPhone"
+                    android:background="@drawable/edit_round"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="120dp"
+                    android:hint="@string/phone_number"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:textColorHint="@color/darkBlue"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/userBirthdate"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="180dp"
+                    android:background="@drawable/edit_round"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="15dp"
+                    android:textSize="18sp"
+                    android:text="@string/birthdate"
+                    android:textColor="@color/darkBlue"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"/>
+
+                <Spinner
+                    android:id="@+id/userGender"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="240dp"
+                    android:background="@drawable/edit_round"
+                    android:entries="@array/gender"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/username"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="300dp"
+                    android:inputType="text"
+                    android:background="@drawable/edit_round"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="@string/username"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColorHint="@color/darkBlue"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/userPassword"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="360dp"
+                    android:inputType="textPassword"
+                    android:background="@drawable/edit_round"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="@string/password"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColorHint="@color/darkBlue"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/userConfirmPassword"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="420dp"
+                    android:inputType="textPassword"
+                    android:background="@drawable/edit_round"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="@string/confirm_password"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColorHint="@color/darkBlue"/>
+
+                <RadioGroup
+                    android:id="@+id/accountCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:layout_marginTop="490dp">
+
+                    <RadioButton
+                        android:id="@+id/userAccount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textColorHighlight="@color/white"/>
+
+                    <RadioButton
+                        android:id="@+id/adminAccount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/admin"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textColorHighlight="@color/white"/>
+                </RadioGroup>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/choosePhoto"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="580dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/choose"
+                    android:background="@drawable/button_round"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="20dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/personalImg"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="560dp"
+                    android:layout_marginStart="200dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/addUserButton"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="680dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/create_account"
+                    android:background="@drawable/button_round"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center_horizontal"/>
+            </FrameLayout>
+    </RelativeLayout>
+</ScrollView>

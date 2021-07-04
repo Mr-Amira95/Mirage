@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "394726879394",
+    "firebase_url": "https://mirage-daab0.firebaseio.com",
+    "project_id": "mirage-daab0",
+    "storage_bucket": "mirage-daab0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394726879394:android:3f42b84c04ac384c1427fb",
+        "android_client_info": {
+          "package_name": "com.example.c_t_t_s"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394726879394-8fkt8squdjovbfe3ekogibtb7ftp0tvr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.c_t_t_s",
+            "certificate_hash": "ec825cf2742ad46cfd10b3f63c43450f8b450c04"
+          }
+        },
+        {
+          "client_id": "394726879394-q41d0dbjmbuh4p50i8kttit5tq5pi25o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpRbnyb6HOG-eJZ8xfOFMWxdHzoUM1RDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394726879394-q41d0dbjmbuh4p50i8kttit5tq5pi25o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

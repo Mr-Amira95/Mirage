@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">MIRAGE</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="title_activity_main_drawer">Activity_main_drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="about_us">About Us</string>
+
+
+    <string name="passOld">Please Enter Old Password</string>
+    <string name="pass">Enter New Password</string>
+    <string name="passCon">Confirm New Password</string>
+
+    <string name="uploadPhoto">Upload Photo</string>
+    <string name="create_account">Create Account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="user">User</string>
+    <string name="admin">Admin</string>
+    <string name="choose">choose</string>
+    <string name="admin_code">Admin Code</string>
+
+    <string name="updateprofile">Update Profile</string>
+    <string name="updatep">Update</string>
+
+    <string name="changepass">Change Password</string>
+    <string name="changeImage">Change Image</string>
+    <string name="forgotPassword">Forgot Password</string>
+
+    <string name="updateInfo">Update Information</string>
+    <string name="deleteAccount">Delete Account</string>
+    <string name="editProfile">Edit Profile</string>
+
+
+    <string name="saveChangepass">Save</string>
+
+    <string name="startDetection">Start Detection</string>
+    <string name="startVoice">Start Voice</string>
+
+
+    <string name="discribtion">Mirage is a project helps the speechless to communicate
+    with others, by detecting their hands movement (sign language) from the mobile Camera
+    and convert them into text and then into an audible text</string>
+    <string name="writeFeedback">Please Give us Constructive Message</string>
+    <string name="send">Send</string>
+
+    <string name="convertedText"> The Converted Text will be shown Here</string>
+
+    <string name="learnSign">Learn Sign Language</string>
+    <string name="testLetter">Test Letter</string>
+
+    <string name="addSign">Add Sign</string>
+    <string name="word">Enter word to Add</string>
+    <string name="check">Check</string>
+
+    <string name="testKnowledge">Test Knowledge</string>
+
+    <string name="Resetpass">Reset Password</string>
+
+
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Rather Not Say</item>
+    </string-array>
+</resources>
